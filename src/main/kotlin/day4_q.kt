@@ -7,7 +7,7 @@
  1. What is Kotlin?
  Kotlin is a statically typed, general-purpose programming language developed by JetBrains for the Java Virtual Machine (JVM). It is designed to be fully interoperable with Java while offering modern language features.
 
- 2. What are the day20260924.main features of Kotlin?
+ 2. What are the day20260924.app3_smart_task_manager.main features of Kotlin?
  Statically typed: means the type of every variable and expression is known at compile-time, does not require to explicitly specify the type of variable
 
  Data Classes: which lead to auto-generation of boilerplate like equals, hashCode, toString, getters/setters and much more.
@@ -30,7 +30,7 @@
  4. Is Kotlin a statically typed language?
  5. What is the difference between Kotlin and Java?  // <----
  6. What is the .kt file extension?  // <----
- 7. What is the day20260924.main() function in Kotlin?
+ 7. What is the day20260924.app3_smart_task_manager.main() function in Kotlin?
  8. How do you write a comment in Kotlin?
  9. What is type inference in Kotlin?
  10. Is semicolon ; mandatory in Kotlin?

@@ -2,15 +2,21 @@ package day20260924
 
 import kotlin.collections.map
 
-//Student Result Management System
-//Create a program that:
-//Calculates total marks.
-//Calculates percentage.
-//Assigns grade.
-//Finds topper.
-//Finds failed students.
-//Finds subject-wise average.
-//Finds students who scored above class average.
+/*
+RP S
+8:06 PM
+
+Student Result Management System
+Create a program that:
+Calculates total marks.
+Calculates percentage.
+Assigns grade.
+Finds topper.
+Finds failed students.
+Finds subject-wise average.
+Finds students who scored above class average.
+*/
+
 
 data class Student(val name: String, val maths: Maths, val physics: Physics, val chemistry: Chemistry)
 data class Maths(val marks: Int, val maxMarks: Int)
@@ -86,6 +92,6 @@ fun findSubjectWiseAverage(students: Array<Student>): SubjectAverage {
 
 //Finds students who scored above class average.
 fun findStudentsScoredAboveClassAvg(students: Array<Student>): List<Student> {
-    val average: Double = students.map { it -> calculatesTotalMarks(it) }.average()
+    val average: Double = students.map { calculatesTotalMarks(it) }.average()
     return students.filter { calculatesTotalMarks(it) > average }
 }
